@@ -7,7 +7,7 @@
 # run
 
     $ cd gunclock-api
-    $ DEBUG=gunclock-api:* PORT=3000 npm start
+    $ DEBUG=gunclock-api:* PORT=3000 MONGODB_URI=mongodb://localhost/gunclock npm start
 
 # access (CURL)
 
