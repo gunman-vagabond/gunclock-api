@@ -6,6 +6,10 @@
 
 # run
 
+This gunclock-api is using MongoDB.
+
+Specify MongoDB URI with 'MONGODB_URI' environment value.
+
     $ cd gunclock-api
     $ DEBUG=gunclock-api:* PORT=3000 MONGODB_URI=mongodb://localhost/gunclock npm start
 

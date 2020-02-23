@@ -37,7 +37,7 @@ router.get('/:id', function(req, res, next) {
 
 router.post('/', function(req, res, next) {
   console.log('post called.');
-  console.log(req);
+  console.log(req.body);
 
   Gunclock.create(req.body, function(err, gunclock) {
     if (err) {
